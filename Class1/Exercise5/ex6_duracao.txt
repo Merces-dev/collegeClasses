@@ -1,0 +1,23 @@
+algoritmo "ex6_duracao"
+// Função :
+// Autor :
+// Data : 15/03/2022
+// Seção de Declarações
+var
+   duracaoSegundos, horas, minutos, segundos : inteiro
+inicio
+// Seção de Comandos
+
+escreva("Informe a duração em segundos: ")
+leia(duracaoSegundos)
+
+horas <- duracaoSegundos div 3600
+minutos <- duracaoSegundos % 3600 div 60
+segundos <- duracaoSegundos % 3600 % 60
+
+limpatela()
+
+escreval("A duração é Horas:", horas)
+escreval("Meses: ", minutos)
+escreval("Segundos: ", segundos)
+fimalgoritmo

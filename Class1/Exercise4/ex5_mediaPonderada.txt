@@ -1,0 +1,20 @@
+algoritmo "ex5_mediaPonderada"
+// Função :
+// Autor :
+// Data : 15/03/2022
+// Seção de Declarações 
+var
+   n1, n2, n3, m: real
+inicio
+// Seção de Comandos
+   escreva("Digite a primeira nota:")
+	leia(n1)
+	escreva("Digite a segunda nota:")
+	leia(n2)
+	escreva("Digite a terceira nota:")
+	leia(n3)
+
+	m <- (n1 * 2 + n2 * 3 + n3 * 5) / 10;
+	escreva("A média ponderada é", m)
+ 
+fimalgoritmo

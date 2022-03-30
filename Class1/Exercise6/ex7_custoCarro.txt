@@ -1,0 +1,17 @@
+algoritmo "ex7_custoCarro"
+// Função :
+// Autor :
+// Data : 16/03/2022
+// Seção de Declarações 
+var
+   custoFabrica, custoConsumidor: real
+inicio
+// Seção de Comandos 
+
+escreval("Digite o custo de fábrica do carro:")
+leia(custoFabrica)
+
+custoConsumidor <- custoFabrica * 1.73
+
+escreval("Com um custo de fábrica de R$", custoFabrica, ". O custo para o consumidor final será de R$", custoConsumidor)
+fimalgoritmo

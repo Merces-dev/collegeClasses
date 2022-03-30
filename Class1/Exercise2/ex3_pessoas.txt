@@ -1,0 +1,34 @@
+algoritmo "ex3_nomes"
+// Função :
+// Autor :
+// Data : 15/03/2022
+// Seção de Declarações 
+var
+   name_first, name_second: caractere
+   age_first, age_second: inteiro
+   media: real
+inicio
+// Seção de Comandos 
+escreval("Informe o nome da primeira pessoa:")
+leia(name_first)
+escreval("Informe a idade da primeira pessoa:")
+leia(age_first)
+
+escreval("Informe o nome da segunda pessoa:")
+leia(name_second)
+escreval("Informe a idade da primeira pessoa:")
+leia(age_second)
+
+limpatela()
+escreval("1° Pessoa")
+
+escreval("Nome:", name_first, "- Idade:", age_first )
+escreval()
+escreval("2° Pessoa")
+escreval("Nome:", name_second, "- Idade:", age_second )
+escreval()
+media <- age_first + age_second
+
+escreval("A média é", media)
+
+fimalgoritmo

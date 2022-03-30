@@ -1,0 +1,24 @@
+algoritmo "ex4_idade"
+// Função :
+// Autor :
+// Data : 15/03/2022
+// Seção de Declarações 
+var
+   idadeDias, anos, meses, dias : inteiro
+inicio
+// Seção de Comandos 
+
+escreva("Informe sua idade em dias: ")
+leia(idadeDias)
+
+anos <- idadeDias div 365
+meses <- idadeDias % 365 div 30
+dias <- idadeDias % 365 % 30
+
+limpatela()
+
+escreval("A sua idade é")
+escreval("anos:", anos)
+escreval("meses:", meses)
+escreval("dias:", dias)
+fimalgoritmo

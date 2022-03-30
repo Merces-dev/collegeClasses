@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1647994780 source:d:\logica\aula2\22.03.02-class-ex1\main.cpp
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
