@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
+
     int A,B,C, aux, cresList[3];
 
     printf("\nDigite seu 1° valor\n");

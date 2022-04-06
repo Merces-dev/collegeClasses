@@ -10,6 +10,7 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     float salaryPerHour, workedHours, salaryGross, salaryFamily;
     int children;
+
     printf("Digite seu salário/hora atual:\nR$");
     scanf("%f", &salaryPerHour);
     printf("Digite quantas horas trabalhadas tem:\n");
