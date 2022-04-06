@@ -21,6 +21,7 @@ float incomeCalc(float hours, float salaryPerHour){
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
+
     char c[10];
     float n = 0, income = 0;
 
