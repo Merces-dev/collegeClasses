@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649203960 source:c:\users\0342342\documents\ex_2022.04.05_04\main.cpp
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
