@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649806177 source:c:\users\0342342\documents\ex2_prova\main.cpp
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
